@@ -1,0 +1,30 @@
+/***************************************************************
+  Name: Paul Lewis
+  File Name: Manual.txt
+  Bin Packing Project
+
+  Users manual for Bin Packing Project
+***************************************************************/
+
+Compiling the program:
+
+A makefile for the program has been provided. Simply type "make" when in the directory.
+
+Alternatively, the program can be compiled using the command:
+gcc -Wall binPacking.c bin.c -o binPacking
+
+Running the program:
+
+Simply type the following command after compiling to run the program:
+./binPacking
+
+The program requires a file "items.txt" in order to run.
+This file must contain the number of runs, the size of each run, and the items used in each run.
+The items.txt used to test the program has been provided in the Documents folder of the program.
+This file must be moved to the main directory of the program in order to use it.
+(This is because the grader will probably use their own items.txt which will overwrite it.)
+
+The user may use the following command to send the output to a file for ease of viewing:
+./binPacking >output.txt
+
+An empty text file named "output.txt" has been provided for this purpose.
