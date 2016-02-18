@@ -1,6 +1,6 @@
 /***************************************************************
   Name: Paul Lewis
-  File Name: project4.h
+  File Name: binPacking.h
 
   Contains struct definitions, libraries, #defines, and function prototypes for project4.c
 ***************************************************************/
